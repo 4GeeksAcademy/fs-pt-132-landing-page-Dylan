@@ -7,22 +7,21 @@ import Container from "./Container";
 import Footer from "./Footer";
 //create your first component
 const Home = () => {
+	
 	return (
-		
 
-		
+
+
 		<div >
-           <div>
 
-		    <Navbar/>
-		   </div>
-          <div>
-			<Container/>
-		  </div>
-			<div>
-				
-			</div>
-			<Footer/>
+
+			<Navbar />
+
+
+			<Container />
+
+
+			<Footer />
 		</div>
 	);
 };
